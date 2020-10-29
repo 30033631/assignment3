@@ -15,14 +15,14 @@
   <body class="container bg-dark">
       
       <?php include 'db.php'; ?>    
-    
-    
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-          <h5 style="color: rgb(247, 116, 28); margin-right: 10px;">SCP Foundation</h5>
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-expand{-sm|-md|-lg|-xl}" role="navigation">
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <h5 style="color: rgb(247, 116, 28); margin-right: 10px;" id="scp">SCP Database</h5>
+ 
     <ul class="navbar-nav mr-auto">
+        
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,11 +42,13 @@
 
 
     </ul>
-  </div>
+
 </nav> 
-              
-          </div>
-      </div>
+
+      
+      
+      
+      
       
       <!--Database content row-->
             <div class="row">
