@@ -16,7 +16,7 @@
     
     
     
-    <p><a href="index.php" class="btn btn-primary">Home</a></p>
+    <p><a href="index.php" class="btn btn-warning">Home</a></p>
     
     <?php
     
@@ -62,7 +62,7 @@
         <br>
         <input type="text" name="images" placeholder="e.g images/pic.jpg" class="form-control" value="<?php echo $row['images']; ?>">
         <br>
-        <input type="submit" name="update" class="btn btn-primary" value="Update">
+        <input type="submit" name="update" class="btn btn-warning" value="Update">
         
     </form>
 

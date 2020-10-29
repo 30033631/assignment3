@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Create new record</title>
+    
   </head>
   <body class="container">
     <h1>Create a new record</h1>
+    <p><a href="index.php" class="btn btn-warning">Home</a></p>
     
     <form class="form-group" action="db.php" method="post">
         <label>Enter a page name:</label>
@@ -42,7 +44,7 @@
         <br>
         <input type="text" name="images" placeholder="e.g images/pic.jpg" class="form-control">
         <br>
-        <input type="submit" name="submit" class="btn btn-primary">
+        <input type="submit" name="submit" class="btn btn-warning">
     </form>
 
     <!-- Optional JavaScript -->
